@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modern landing webpages</title>
+    <link rel="stylesheet" href="use.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+ <div class="hero">
+    <nav>
+        <img src="C:\Users\91883\Downloads\vueLamp_img\images\menu.png" class="menu-img">
+        <img src="C:\Users\91883\Downloads\vueLamp_img\images\logo.png" class="logo">
+        <ul>
+            <li><a href="">Latest</a></li>
+            <li><a href="">Modern</a></li>
+            <li><a href="">Contemporary</a></li>
+            <li><a href="">Affordable</a></li>
+        </ul>
+        <button type="button" onclick="toggleBtn()" id="btn"><span></span></button>
+    </nav>
+
+
+    <div class="lamp-container">
+        <img src="C:\Users\91883\Downloads\vueLamp_img\images\lamp.png" class="lamp">
+        <img src="C:\Users\91883\Downloads\vueLamp_img\images\light.png" class="light" id="light">
+    </div>
+
+    <div class="text-container">
+        <h1>Latest<br> in ligthing</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, quae. Libero dolores neque animi. Eveniet nulla a perspiciatis delectus, ex quisquam aut fugit sit cupiditate ipsam aperiam dolores corrupti deleniti?</p>
+        <a href="">check all collections</a>
+        <div class="control">
+            <p>04</p>
+            <div class="line"><span></span></div>
+            <p>05</p>
+        </div>
+    
+    </div>
+</div>
+
+<script>
+    var btn=document.getElementById("btn");
+    var light= document.getElementById("light");
+    function toggleBtn(){
+        btn.classList.toggle("active");
+        light.classList.toggle("on")
+    }
+</script>
+</body>
+</html>
+  
